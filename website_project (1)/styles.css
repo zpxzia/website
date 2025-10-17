@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+:root {--brand-color:#2b6cb0;--brand-contrast:#ffffff;}
+body {font-family:'Inter',system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;padding-top:70px;}
+.navbar-brand,.navbar-nav .nav-link{color:var(--brand-contrast)!important;}
+.navbar{background:linear-gradient(90deg,var(--brand-color),#1f4f7a)!important;box-shadow:0 3px 8px rgba(0,0,0,0.08);}
+.site-footer{min-height:200px;padding:2rem;background:#f8f9fa;border-top:1px solid #e9ecef;}
+.gallery img{width:100%;height:auto;display:block;border-radius:4px;}
+.section-title{margin-bottom:1rem;font-weight:600;}
+.form-container{max-width:720px;margin:0 auto;}
+.site-footer .copyright{opacity:0.8;font-size:0.95rem;}
+.main-content{padding-top:1rem;padding-bottom:2rem;}
+/* Zorgt er voor dat al mijn afbeeldingen hetzelfde grootte hebben */
+.gallery img {
+  width: 100%;
+  height: 200px;       
+  object-fit: cover;   
+  border-radius: 8px;
+  display: block;
+}
